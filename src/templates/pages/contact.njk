@@ -1,0 +1,49 @@
+{% extends "layout.njk" %}
+{% block title %}Contact — Internship Task 2{% endblock %}
+{% block content %}
+
+<section class="py-5 text-center bg-light">
+  <div class="container">
+    <h1 class="display-6 fw-bold mb-3">Get in Touch</h1>
+    <p class="lead text-muted mb-4">
+      Have questions about this project or want to collaborate? Feel free to reach out below.
+    </p>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card border-0 shadow-sm p-4">
+          <form action="#" method="POST">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary px-4">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 text-center">
+  <div class="container">
+    <h5 class="fw-bold mb-3">Contact Info</h5>
+    <p class="text-muted mb-1"><strong>Name:</strong> Kaga Dastagiri</p>
+    <p class="text-muted mb-1"><strong>Email:</strong> 229x1a3345@gmail.com</p>
+    <p class="text-muted"><strong>Location:</strong> Andhra Pradesh, India</p>
+  </div>
+</section>
+
+{% endblock %}
